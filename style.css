@@ -1,0 +1,67 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+nav {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+nav * {
+    display: inline-block;
+    text-align: center;
+}
+nav img {
+    height: 100%;
+}
+nav h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 48px;
+    font-weight: normal;
+}
+nav div * {
+    display: block;
+    margin: 0;
+}
+main {
+    display: flex;
+    margin: 0 30px;
+}
+.card {
+    position: relative;
+    background-color: #f1f1e4;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 200px;
+    height: 320px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.card p {
+    font-size: 13px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card * {
+    margin: 0;
+    padding: 0;
+}
+.card img {
+    max-height: 75%;
+    margin: auto;
+    display: block;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+.card .bottom {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
